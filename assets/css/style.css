@@ -61,6 +61,7 @@ body {
     color: #ddd;
     font-family: sans-serif;
     font-size: larger;
+    text-decoration: underline;
 }
 
 #aboutus_container p {
@@ -258,7 +259,8 @@ body {
 /*Services Page*/
 
 #service_container {
-    display: grid;
+    display: flexbox;
+    align-content: space-between;
     width: 100%;
     height: 100%;
     margin: 10px;
@@ -391,26 +393,9 @@ body {
     font-weight: bold;
 }
 
-#address h3 {
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration: solid;
-    font-size: 0.25cm;
-}
-
-#address_container {
-    width: 100%;
-    height: 100%
-}
-
-#address_container>h2 {
-    letter-spacing: 4px;
-    margin: auto;
-    color: #f2f2f2;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#address_container>p {
-    margin-bottom: 1rem;
+#address {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
