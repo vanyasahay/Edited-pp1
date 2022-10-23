@@ -6,6 +6,12 @@ body {
     padding: 15px;
 }
 
+#main_container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 #menu {
     overflow: hidden;
 }
@@ -49,6 +55,12 @@ body {
     font-weight: bold;
     color: #ffffff;
     text-align: center;
+}
+
+#contactUs_container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #aboutus_container {
@@ -257,6 +269,12 @@ body {
 
 
 /*Services Page*/
+
+#service_container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 
 /*#service_container {

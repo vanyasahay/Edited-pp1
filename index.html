@@ -10,71 +10,73 @@
 </head>
 
 <body>
-    <header>
-        <nav class="logo">
-            <img class="logo-img" src="https://res.cloudinary.com/dk2fqntmr/image/upload/c_scale,w_150/v1658771997/images_pp1/uno_solutions_dkhghh.png" ALT="UNO Solution Logo">
-            <a href="index.html"></a>
+    <div id="main_container">
+        <header>
+            <nav class="logo">
+                <img class="logo-img" src="https://res.cloudinary.com/dk2fqntmr/image/upload/c_scale,w_150/v1658771997/images_pp1/uno_solutions_dkhghh.png" ALT="UNO Solution Logo">
+                <a href="index.html"></a>
 
-            <ul id="menu">
-                <li><a href="index.html" id="home" aria-label="You are on Home Page">Home<i class="fa-solid fa-house" aria-hidden="true"></i></a></li>
-                <li><a href="services.html" id="services" aria-label="You are on Services Page">Services<i class="fa-solid fa-gears" aria-hidden="true"></i></a></li>
-                <li><a href="contactUs.html" id="contactus" aria-label="You are on Contact Us page"> Contact Us<i class="fa-solid fa-phone" aria-hidden="true"></i></a></li>
+                <ul id="menu">
+                    <li><a href="index.html" id="home" aria-label="You are on Home Page">Home<i class="fa-solid fa-house" aria-hidden="true"></i></a></li>
+                    <li><a href="services.html" id="services" aria-label="You are on Services Page">Services<i class="fa-solid fa-gears" aria-hidden="true"></i></a></li>
+                    <li><a href="contactUs.html" id="contactus" aria-label="You are on Contact Us page"> Contact Us<i class="fa-solid fa-phone" aria-hidden="true"></i></a></li>
 
+                </ul>
+            </nav>
+        </header>
+
+
+        <h1 id="company_name">UNO Solutions:Your one stop service center</h1><br><br>
+
+
+        <div id="aboutus_container">
+            <h2 id="aboutUs" aria-label="About Us">About Us</h2>
+            <p>
+                Uno Solution is a free online service which helps you to find contractors for your needs. We can locate who are available in your area. Our notion is to build a trusted online solution for every needs<br> All you need is to search for
+                services on the top of the screen or go to services page.<br> If you are moving home or leaks in the water pipes or want a deep cleaner to clean home, we will match you with the right person.<br>
+            </p>
+        </div>
+
+        <div id="signin_container">
+            <div id="login_container">
+
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <fieldset>
+                        <legend>Login</legend>
+                        <label for="username" class="text">Username: </label> <input type="email" id="username" aria-label="Type Username" name="username" required><br><br>
+                        <label>Password: </label> <input type="password" id="password" aria-label="Type Password" required><br> <br>
+                        <input type="submit" value="Click to Login!" class="submit" aria-label="Submit button">
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div id="signup_container">
+
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <fieldset>
+                        <legend>SignUp</legend>
+                        <label for="firstName" class="text">First Name:</label><input type="text" placeholder="Your First Name" id="firstName" aria-label="First Name" name="firstName" required><br><br>
+                        <label for="lastName" class="text">Last Name:</label> <input type="text" placeholder="Your Last Name" id="lastName" aria-label="Last Name" name="lastName" required><br><br>
+                        <label for="dateOfBirth" class="text">Date of Birth: </label><input type="text" placeholder="DD/MM/YYYY" id="dateOfBirth" aria-label="Type Date of birth" name="dateOfBirth" required><br><br>
+                        <label for="username1" class="text">Username: </label> <input type="email" id="username1" aria-label="Type Username" name="username1" required><br><br>
+                        <label>Password: </label><input type="password" id="password1" aria-label="Type Password" required><br> <br>
+                        <input type="submit" value="Click here to Sign Up!" class="submit" aria-label="Submit button">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <ul id="follow">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
-        </nav>
-    </header>
 
-
-    <h1 id="company_name">UNO Solutions:Your one stop service center</h1><br><br>
-
-
-    <div id="aboutus_container">
-        <h2 id="aboutUs" aria-label="About Us">About Us</h2>
-        <p>
-            Uno Solution is a free online service which helps you to find contractors for your needs. We can locate who are available in your area. Our notion is to build a trusted online solution for every needs<br> All you need is to search for services
-            on the top of the screen or go to services page.<br> If you are moving home or leaks in the water pipes or want a deep cleaner to clean home, we will match you with the right person.<br>
-        </p>
+        </footer>
     </div>
-
-    <div id="signin_container">
-        <div id="login_container">
-
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <fieldset>
-                    <legend>Login</legend>
-                    <label for="username" class="text">Username: </label> <input type="email" id="username" aria-label="Type Username" name="username" required><br><br>
-                    <label>Password: </label> <input type="password" id="password" aria-label="Type Password" required><br> <br>
-                    <input type="submit" value="Click to Login!" class="submit" aria-label="Submit button">
-                </fieldset>
-            </form>
-        </div>
-
-
-        <div id="signup_container">
-
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <fieldset>
-                    <legend>SignUp</legend>
-                    <label for="firstName" class="text">First Name:</label><input type="text" placeholder="Your First Name" id="firstName" aria-label="First Name" name="firstName" required><br><br>
-                    <label for="lastName" class="text">Last Name:</label> <input type="text" placeholder="Your Last Name" id="lastName" aria-label="Last Name" name="lastName" required><br><br>
-                    <label for="dateOfBirth" class="text">Date of Birth: </label><input type="text" placeholder="DD/MM/YYYY" id="dateOfBirth" aria-label="Type Date of birth" name="dateOfBirth" required><br><br>
-                    <label for="username1" class="text">Username: </label> <input type="email" id="username1" aria-label="Type Username" name="username1" required><br><br>
-                    <label>Password: </label><input type="password" id="password1" aria-label="Type Password" required><br> <br>
-                    <input type="submit" value="Click here to Sign Up!" class="submit" aria-label="Submit button">
-                </fieldset>
-            </form>
-        </div>
-    </div>
-
-    <footer>
-        <ul id="follow">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank" rel="no-opener no-follow" aria-label="Follow us On LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
-        </ul>
-
-    </footer>
 </body>
 
 </html>
