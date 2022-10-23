@@ -57,6 +57,12 @@ body {
     color: white;
 }
 
+#aboutus_container h2 {
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
 #aboutus_container p {
     font-family: sans-serif;
     font-size: large;
