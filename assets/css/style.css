@@ -54,6 +54,7 @@ body {
 #aboutus_container {
     padding: 5px;
     margin: 10px;
+    color: white;
 }
 
 #aboutus_container p {
@@ -241,6 +242,10 @@ body {
     padding: 20px;
     justify-content: space-evenly;
     background: #ddd;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 
