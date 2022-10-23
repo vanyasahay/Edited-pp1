@@ -270,7 +270,7 @@ body {
 
 .professional {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: baseline;
     padding: 5px;
@@ -414,4 +414,5 @@ body {
 iframe {
     padding: 3cm;
     margin: 2cm;
+    align-items: center;
 }
