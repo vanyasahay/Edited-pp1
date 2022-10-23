@@ -268,8 +268,10 @@ body {
 }
 
 .professional {
-    display: block;
-    align-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
     padding: 5px;
     margin: 10px;
     width: 25%;
@@ -350,13 +352,14 @@ body {
 
 #contactus_container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 5px;
     width: 25%;
     height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 5px;
-    justify-content: space-evenly;
 }
 
 #contactus_container legend {
