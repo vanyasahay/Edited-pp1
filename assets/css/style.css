@@ -64,7 +64,8 @@ body {
 }
 
 #signin_container {
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
     width: 50%;
     height: 50%;
     border: 3px solid;
