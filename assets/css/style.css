@@ -276,6 +276,7 @@ body {
 
 #service_container {
     display: flex;
+    max-width: fit-content;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -299,6 +300,7 @@ body {
     font-size: large;
     font-weight: bold;
     color: #ddd;
+    text-decoration: underline;
 }
 
 .name {
