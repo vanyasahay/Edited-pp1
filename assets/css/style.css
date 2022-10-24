@@ -1,4 +1,4 @@
-            /*Index Page */
+                                /*Index Page */
             
             body {
                 background-color: #00203f;
@@ -362,7 +362,7 @@
             }
             /*Contact Us*/
             
-            #contactus_container {
+            #contactus {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -375,13 +375,13 @@
                 margin-left: 5px;
             }
             
-            #contactus_container legend {
+            #contactus legend {
                 font-weight: normal;
                 color: white;
                 padding: 5px 10px;
             }
             
-            #contactus_container label {
+            #contactus label {
                 font-weight: bold;
                 color: #ddd;
             }
@@ -440,60 +440,76 @@
                     position: sticky;
                     bottom: 0;
                 }
-            }
-            /* 2532x1170 pixels at 460ppi , iPhone13 & iPhone13 pro*/
-            
-            @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-                #signin_container {
+                #contactus {
                     display: block;
                     max-width: fit-content;
                     float: left;
                 }
-                #follow {
-                    position: -webkit-sticky;
-                    position: sticky;
-                    bottom: 0;
-                }
-            }
-            /* Portrait and Landscape */
-            
-            @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-                #signin_container {
-                    display: block;
-                    max-width: fit-content;
-                    float: left;
-                }
-                #follow {
-                    position: -webkit-sticky;
-                    position: sticky;
-                    bottom: 0;
-                }
-            }
-            /* Portrait */
-            
-            @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-                #signin_container {
-                    display: block;
-                    max-width: fit-content;
-                    float: left;
-                }
-                #follow {
-                    position: -webkit-sticky;
-                    position: sticky;
-                    bottom: 0;
-                }
-            }
-            /* Landscape */
-            
-            @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-                #signin_container {
-                    display: block;
-                    max-width: fit-content;
-                    float: left;
-                }
-                #follow {
-                    position: -webkit-sticky;
-                    position: sticky;
-                    bottom: 0;
-                }
-            }
+                /* 2532x1170 pixels at 460ppi , iPhone13 & iPhone13 pro*/
+                @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+                    #signin_container {
+                        display: block;
+                        max-width: fit-content;
+                        float: left;
+                    }
+                    #follow {
+                        position: -webkit-sticky;
+                        position: sticky;
+                        bottom: 0;
+                    }
+                    #contactus {
+                        display: block;
+                        max-width: fit-content;
+                        float: left;
+                    }
+                    /* Portrait and Landscape */
+                    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+                        #signin_container {
+                            display: block;
+                            max-width: fit-content;
+                            float: left;
+                        }
+                        #follow {
+                            position: -webkit-sticky;
+                            position: sticky;
+                            bottom: 0;
+                        }
+                        #contactus {
+                            display: block;
+                            max-width: fit-content;
+                            float: left;
+                        }
+                        /* Portrait */
+                        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+                            #signin_container {
+                                display: block;
+                                max-width: fit-content;
+                                float: left;
+                            }
+                            #follow {
+                                position: -webkit-sticky;
+                                position: sticky;
+                                bottom: 0;
+                            }
+                            #contactus {
+                                display: block;
+                                max-width: fit-content;
+                                float: left;
+                            }
+                            /* Landscape */
+                            @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+                                #signin_container {
+                                    display: block;
+                                    max-width: fit-content;
+                                    float: left;
+                                }
+                                #follow {
+                                    position: -webkit-sticky;
+                                    position: sticky;
+                                    bottom: 0;
+                                }
+                                #contactus {
+                                    display: block;
+                                    max-width: fit-content;
+                                    float: left;
+                                }
