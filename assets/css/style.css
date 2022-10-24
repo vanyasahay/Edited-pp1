@@ -489,11 +489,10 @@
                         #communication_container {
                             display: block;
                             max-width: fit-content;
-                            width: 50%;
                             float: left;
                         }
                         #communication_container>#contactUs_map {
-                            width: 50%;
+                            width: 30%;
                             padding: 2%;
                         }
                     }
@@ -524,11 +523,10 @@
                         #communication_container {
                             display: block;
                             max-width: fit-content;
-                            width: 50%;
                             float: left;
                         }
                         #communication_container>#contactUs_map {
-                            width: 50%;
+                            width: 30%;
                             padding: 2%;
                         }
                     }
@@ -559,11 +557,10 @@
                         #communication_container {
                             display: block;
                             max-width: fit-content;
-                            width: 50%;
                             float: left;
                         }
                         #communication_container>#contactUs_map {
-                            width: 50%;
+                            width: 30%;
                             padding: 2%;
                         }
                     }
@@ -589,16 +586,14 @@
                             position: -webkit-sticky;
                             position: sticky;
                             bottom: 0;
-                            font-size: 2rem
                         }
                         #communication_container {
                             display: block;
                             max-width: fit-content;
-                            width: 50%;
                             float: left;
                         }
                         #communication_container>#contactUs_map {
-                            width: 50%;
+                            width: 30%;
                             padding: 2%;
                         }
                     }
