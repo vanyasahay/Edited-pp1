@@ -256,15 +256,12 @@ body {
 #follow {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    list-style: none;
+    align-items: center;
     margin: 20px;
     padding: 20px;
     justify-content: space-evenly;
-    background: #ddd;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    margin-top: 5rem;
 }
 
 
