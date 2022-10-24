@@ -435,6 +435,15 @@
                     max-width: fit-content;
                     float: left;
                 }
+                #follow {
+                    display: flex;
+                    max-width: fit-content;
+                    flex-direction: row;
+                    list-style: none;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: #a2a6ac;
+                }
             }
             /* 2532x1170 pixels at 460ppi , iPhone13 & iPhone13 pro*/
             
@@ -443,6 +452,15 @@
                     display: block;
                     max-width: fit-content;
                     float: left;
+                }
+                #follow {
+                    display: flex;
+                    max-width: fit-content;
+                    flex-direction: row;
+                    list-style: none;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: #a2a6ac;
                 }
             }
             /* Portrait and Landscape */
@@ -453,6 +471,15 @@
                     max-width: fit-content;
                     float: left;
                 }
+                #follow {
+                    display: flex;
+                    max-width: fit-content;
+                    flex-direction: row;
+                    list-style: none;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: #a2a6ac;
+                }
             }
             /* Portrait */
             
@@ -462,6 +489,15 @@
                     max-width: fit-content;
                     float: left;
                 }
+                #follow {
+                    display: flex;
+                    max-width: fit-content;
+                    flex-direction: row;
+                    list-style: none;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: #a2a6ac;
+                }
             }
             /* Landscape */
             
@@ -470,5 +506,14 @@
                     display: block;
                     max-width: fit-content;
                     float: left;
+                }
+                #follow {
+                    display: flex;
+                    max-width: fit-content;
+                    flex-direction: row;
+                    list-style: none;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: #a2a6ac;
                 }
             }
