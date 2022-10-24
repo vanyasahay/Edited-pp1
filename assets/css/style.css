@@ -430,6 +430,15 @@
                     /* 2340x1080 pixels at 476ppi, iPhone 13 mini */
                     
                     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+                        #main_container {
+                            max-width: fit-content;
+                        }
+                        #services_container {
+                            max-width: fit-content;
+                        }
+                        #contactUs_container {
+                            max-width: fit-content;
+                        }
                         #signin_container {
                             display: block;
                             max-width: fit-content;
@@ -449,6 +458,15 @@
                     /* 2532x1170 pixels at 460ppi , iPhone13 & iPhone13 pro*/
                     
                     @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+                        #main_container {
+                            max-width: fit-content;
+                        }
+                        #services_container {
+                            max-width: fit-content;
+                        }
+                        #contactUs_container {
+                            max-width: fit-content;
+                        }
                         #signin_container {
                             display: block;
                             max-width: fit-content;
@@ -468,6 +486,15 @@
                     /* Portrait and Landscape */
                     
                     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+                        #main_container {
+                            max-width: fit-content;
+                        }
+                        #services_container {
+                            max-width: fit-content;
+                        }
+                        #contactUs_container {
+                            max-width: fit-content;
+                        }
                         #signin_container {
                             display: block;
                             max-width: fit-content;
@@ -487,6 +514,15 @@
                     /* Portrait */
                     
                     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+                        #main_container {
+                            max-width: fit-content;
+                        }
+                        #services_container {
+                            max-width: fit-content;
+                        }
+                        #contactUs_container {
+                            max-width: fit-content;
+                        }
                         #signin_container {
                             display: block;
                             max-width: fit-content;
@@ -506,6 +542,15 @@
                     /* Landscape */
                     
                     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+                        #main_container {
+                            max-width: fit-content;
+                        }
+                        #services_container {
+                            max-width: fit-content;
+                        }
+                        #contactUs_container {
+                            max-width: fit-content;
+                        }
                         #signin_container {
                             display: block;
                             max-width: fit-content;
