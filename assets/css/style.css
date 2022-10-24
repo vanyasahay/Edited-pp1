@@ -7,7 +7,7 @@ body {
 }
 
 #main_container {
-    max-width: 1000px;
+    max-width: fit-content;
     width: 100%;
     margin: 0 auto;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 #contactUs_container {
-    max-width: 1000px;
+    max-width: fit-content;
     width: 100%;
     margin: 0 auto;
 }
@@ -270,8 +270,8 @@ body {
 
 /*Services Page*/
 
-#service_container {
-    max-width: 1000px;
+#services_container {
+    max-width: fit-content;
     width: 100%;
     margin: 0 auto;
 }
