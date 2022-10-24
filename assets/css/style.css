@@ -442,17 +442,24 @@
                         #signin_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
                         }
                         #follow {
                             position: -webkit-sticky;
                             position: sticky;
                             bottom: 0;
+                            font-size: 2rem
                         }
                         #communication_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
+                        }
+                        #communication_container>#contactUs_map {
+                            width: 50%;
+                            padding: 2%;
                         }
                     }
                     /* 2532x1170 pixels at 460ppi , iPhone13 & iPhone13 pro*/
@@ -470,17 +477,24 @@
                         #signin_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
                         }
                         #follow {
                             position: -webkit-sticky;
                             position: sticky;
                             bottom: 0;
+                            font-size: 2rem
                         }
                         #communication_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
+                        }
+                        #communication_container>#contactUs_map {
+                            width: 50%;
+                            padding: 2%;
                         }
                     }
                     /* Portrait and Landscape */
@@ -498,17 +512,24 @@
                         #signin_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
                         }
                         #follow {
                             position: -webkit-sticky;
                             position: sticky;
                             bottom: 0;
+                            font-size: 2rem
                         }
                         #communication_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
+                        }
+                        #communication_container>#contactUs_map {
+                            width: 50%;
+                            padding: 2%;
                         }
                     }
                     /* Portrait */
@@ -526,17 +547,24 @@
                         #signin_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
                         }
                         #follow {
                             position: -webkit-sticky;
                             position: sticky;
                             bottom: 0;
+                            font-size: 2rem
                         }
                         #communication_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
+                        }
+                        #communication_container>#contactUs_map {
+                            width: 50%;
+                            padding: 2%;
                         }
                     }
                     /* Landscape */
@@ -554,16 +582,23 @@
                         #signin_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
                         }
                         #follow {
                             position: -webkit-sticky;
                             position: sticky;
                             bottom: 0;
+                            font-size: 2rem
                         }
                         #communication_container {
                             display: block;
                             max-width: fit-content;
+                            width: 50%;
                             float: left;
+                        }
+                        #communication_container>#contactUs_map {
+                            width: 50%;
+                            padding: 2%;
                         }
                     }
